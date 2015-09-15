@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Harmony in the Future of Javascript</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="">
+		<meta name="author" content="Eric R. Bollens">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/cloudcompli.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -37,341 +37,793 @@
 	<body>
 
 		<div class="reveal">
+                
+            <header>
+                <img src="img/cloudcompli-logo.png">
+            </header>
+
+            <footer>
+                <a href="http://eb.io/p-js-harmony" target="_blank">eb.io/p-js-harmony</a>
+            </footer>
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1>Harmony</h1>
+					<h3>in the Future of Javascript</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Eric Bollens / <a href="mailto:eric@eb.io">eric@eb.io</a> / <a href="http://github.com/ebollens">ebollens [GitHub]</a> / <a href="http://twitter.com/ericbollens">@ericbollens [Twitter]</a></small>
 					</p>
 				</section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Before We Start...</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>About This Presentation</h2>
+                        <p class='fragment'>
+                            <strong>The slides from this presentation</strong>
+                            <br><em><a href='http://eb.io/ghp/p-js-harmony' target='_blank'>eb.io/p-js-harmony</a></em>
+                        </p>
+                        <p class='fragment'>
+                            <strong>This presentation is open source</strong>
+                            <br><em><a href='https://github.com/ebollens/p-js-harmony' target='_blank'>github.com/ebollens/p-js-harmony</a></em>
+                        </p>
+                    </section>
+                
+                    <section>
+                        <h2>About Me</h2>
+                        <p class="fragment">
+                            Chief Technology Officer
+                            <br><img src="img/cloudcompli-logo.png" style="border:0;background:none;box-shadow:none;height:1em;">
+                        </p>
+                        <p class='fragment'>
+                            Formerly,
+                            Open Source Architect
+                            <br><img src="img/ucla-logo.png" style="border:0;background:none;box-shadow:none;height:1em;">
+                            <img src="img/oit-logo.png" style="border:0;background:none;box-shadow:none;height:1em;">
+                        </p>
+                        <p class='fragment'>Open source, modern web &amp; IoT evangelist</p>
+                    </section>
+                    
+                </section>
+                
+                <section>
 
-				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
+                    <section>
+                        <h2>A Brief History</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Mocha</h2>
+                        <p class="fragment">Java came to Netscape Navigator but wasn't enough</p>
+                        <blockquote class="fragment">We aimed to provide a &quot;glue language&quot; for the Web designers and part time programmers who were building Web content from components such as images, plugins, and Java applets...where the glue programmers would assemble components and automate their interactions using [a scripting language].</blockquote>
+                        <p class="fragment">And so Brandon Eich programmed it in ten days</p>
+                    </section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
+                    <section>
+                        <h2>Standardization</h2>
+                        <p class='fragment'>
+                            <strong>Two competing implementations</strong>
+                            <br>
+                            <em class='fragment'>Mocha -> LiveScript -> JavaScript</em>
+                            <br>
+                            <em class='fragment'>JScript</em>
+                        </p>
+                        <p class='fragment'><strong>ECMA International hosts the standard</strong>
+                            <br>
+                            <em class='fragment'>ECMAScript (ECMA-262) begins Nov 1996</em>
+                            <br>
+                            <em class='fragment'>Technical Committee 39 (TC39)</em>
+                            <br>
+                            <em class='fragment'>ECMAScript 1 released June 1997</em>
+                        </p>
+                    </section>
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
+                    <section>
+                        <h2>Early Days</h2>
+                        <p class='fragment'>
+                            <strong>Early progress is good</strong>
+                            <br>
+                            <em class='fragment'>do-while, regex, string methods, exception handling, etc.</em>
+                            <br>
+                            <em class='fragment'>ECMAScript 3 released December 1999</em>
+                        </p>
+                        <p class='fragment'>
+                            <strong>But differentiation was built into the process</strong>
+                            <br>
+                            <em class='fragment'>ECMAScript meant only to be the &quot;core&quot;</em>
+                            <br>
+                            <em class='fragment'>Each browser would package its own additional features</em>
+                        </p>
+                    </section>
 
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
+                    <section>
+                        <h2>Growing Pains</h2>
+                        <blockquote class='fragment'>a strange hybrid of powerful and universally supported core functionality and often incompatible object models</blockquote>
+                        <p class='fragment'>Navigator like IE, IE like Navigator, or abstract both?</p>
+                        <p class='fragment'>And then throw some other junk in the mix...
+                            <br>
+                            <em class='fragment'>DHTML</em>
+                            <br>
+                            <em class='fragment'>JS2 &amp; JScript.net</em>
+                        </p>
+                        <p class='fragment'>HTML was also in the midst of its XHTML identity crisis</p>
+                    </section>
+                    
+                    <section>
+                        <h2>Fragmentation</h2>
+                        <p class='fragment'>
+                            <strong>A Massive Overhaul Proposed with ES4</strong>
+                            <br>
+                            <small><em class='fragment'>Classes, Interfaces, Operator Overloading, Packages, Namespaces, Type Constraints, Verification, Type-dispatched Exceptions, Syntactic Sugar, Iteration Controls, Generators, Tail Calls, Parameterized Classes, Typed Literatls, Meta-level Hooks, Reflection, Destructing, Self-hosting, and more...</em></small>
+                        </p>
+                        <p class='fragment'><strong>Opposition sparks a competing ES3.1</strong></p>
+                        <blockquote class='fragment'>is it right for ES4 to be stalled in committee, or for ES3 to be forked into a now-hidden “ES3.1”, because Microsoft and Doug Crockford object to ES4 on general grounds?</blockquote>
+                    </section>
 
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
+                    <section>
+                        <h2>Reunification with the Harmony Agenda</h2>
+                        <p class='fragment'>The split ends in Oslo in July 2008</p>
+                        <blockquote class='fragment'>A split committee is good for no one and nothing, least of all any language specs that might come out of it</blockquote>
+                        <p>
+                            <em class='fragment'>Focus work on ES3.1 (eventually renamed ES5)</em>
+                            <br>
+                            <em class='fragment'>Syntactic extensions but more modest than ES4</em>
+                            <br>
+                            <em class='fragment'>Some ES4 proposals will be abandoned</em>
+                            <br>
+                            <em class='fragment'>Some ES4 goals rephrased to maintain consensus</em>
+                        </p>
+                        
+                    </section>
+                    
+                    <section>
+                        <h2>Today and the Future</h2>
+                        <p class="fragment">ES5 is well supported</p>
+                        <p class="fragment">ES6 finalized June 2015</p>
+                        <p class="fragment">ES7 work already underway</p>
+                    </section>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
+                    <section>
+                        <h2>Ubiquity</h2>
+                        <p class='fragment'>AJAX Revolution</p>
+                        <p class="fragment">Node.js</p>
+                        <p class="fragment">JSON databases</p>
+                        <p class="fragment">On-device software</p>
+                        <p class="fragment">Compilation target</p>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Language Features</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Block Scoping</h2>
+                        <pre class='fragment'><code data-trim>var a = 10;
+if (a == 10) {
+  var a = 1;
+  console.log(a); // 1
+} 
+console.log(a); // 1</code></pre>
+                        <pre class='fragment'><code data-trim>var a = 10;
+if (a == 10) {
+  let a = 1;
+  console.log(a); // 1
+} 
+console.log(a); // 10</code></pre>
+                        <pre class='fragment'><code data-trim>for (let i = 0; i<10; i++){
+  console.log(i); // 0, 1, 2, 3, 4 ... 9
 }
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
 
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+console.log(i); // i is not defined</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Why Block Scoping?</h2>
+                        <pre class='fragment'><code data-trim>for (var i = 0; i <= 5; i++) {
+  items[i].onclick = function() {
+    console.log("Item " + i + " is clicked.");
+  };
+}</code></pre>
+                        <pre class='fragment'><code data-trim>for (var i = 0; i <= 5; i++) {
+  (function(j){
+    items[i].onclick = function (ev) {
+      console.log("Item " + j + " is clicked.");
+    };
+  })(i);
+}</code></pre>
+                        <pre class='fragment'><code data-trim>for (var i = 0; i <= 5; i++) {
+  let j = i;
+  items[i].onclick = function (ev) {
+    console.log("Item " + j + " is clicked.");
+  };
+}</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Arrow Functions</h2>
+                        <p class="fragment">Shorter functions</p>
+                        <pre class="fragment"><code data-trim>var a2 = a.map( function(s){ return s.length } );</code></pre>
+                        <pre class="fragment"><code data-trim>var a3 = a.map( s => s.length );</code></pre>
+                        <p class="fragment">Lexical <code>this</code></p>
+                        <pre class="fragment"><code data-trim>var self = this;
+setInterval(function(){
+    self.age++;
+}, 1000);</code></pre>
+                        <pre class="fragment"><code data-trim>setInterval(() => {
+    this.age++;
+}, 1000);</code></pre>
+                        <p class="fragment"><em>Caveats with yield and returning object literals</em></p>
+                    </section>
+                    
+                    <section>
+                        <h2>Constants</h2>
+                        <p class='fragment'>Read-only reference to a value</p>
+                        <pre class='fragment'><code data-trim>const EX = 7;</code></pre>
+                        <pre class='fragment'><code data-trim>(EX = 20) == 20;
+EX == 7;</code></pre>
+                        <pre class='fragment'><code data-trim>const EX = 10; 
+// Uncaught TypeError: Identifier 'EX' has already been declared</code></pre>
+                        <pre class='fragment'><code data-trim>var EX = 20;
+EX == 7;</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Objects as Constants</h2>
+                        <p class='fragment'>Reference is immutable, not value</p>
+                        <pre class='fragment'><code data-trim>const OBJ = { foo: 'bar' }</code></pre>
+                        <pre class='fragment'><code data-trim>OBJ = null
+console.log(OBJ); // Object {foo: "bar"}</code></pre>
+                        <pre class='fragment'><code data-trim>OBJ.foo = 'baz';
+console.log(OBJ); // Object {foo: "baz"}</code></pre>
+                        <p class='fragment'>Freeze allows for immutability of values</p>
+                        <pre class='fragment'><code data-trim>Object.freeze(OBJ);
+OBJ.foo = 'qux';
+console.log(OBJ); // Object {foo: "baz"}</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Symbols</h2>
+                        <p class='fragment'>New primitive</p>
+                        <pre class='fragment'><code data-trim>typeof Symbol() == "symbol"</code></pre>
+                        <p class='fragment'>Every symbol has unique identity</p>
+                        <pre class='fragment'><code data-trim>Symbol('a') !== Symbol('a')</code></pre>
+                        <p class='fragment'>Function-defined, not constructor-based</p>
+                        <pre class='fragment'><code data-trim>new Symbol() // TypeError: Symbol is not a constructor</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Computed Keys</h2>
+                        <pre class='fragment'><code data-trim>const MY_KEY = Symbol();
+let obj = {};
+obj[MY_KEY] = 123;
+console.log(obj[MY_KEY]); // 123</code></pre>
+                        <pre class='fragment'><code data-trim>const MY_KEY = Symbol();
+let obj = {
+  [MY_KEY]: 123
+};
+console.log(obj[MY_KEY]); // 123</code></pre>
+                        <pre class='fragment'><code data-trim>const MY_FN = Symbol();
+let obj = {
+    [MY_FN]() {
+        return 'bar';
+    }
+};
+obj[MY_FN]() == 'bar';</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Enumerating Computed Keys</h2>
+                        <pre class='fragment'><code data-trim>let obj = {
+    [Symbol('my_key')]: 1,
+    enum: 2,
+    nonEnum: 3
+};
+Object.defineProperty(obj, 'nonEnum', { enumerable: false });
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+Object.getOwnPropertyNames(obj)  // ['enum', 'nonEnum']
+Object.getOwnPropertySymbols(obj)  // [Symbol(my_key)]
+Reflect.ownKeys(obj)  // [Symbol(my_key), 'enum', 'nonEnum']
+Object.keys(obj)  // ['enum']
+</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Symbol Registry</h2>
+                        <pre class='fragment'><code data-trim>let sym = Symbol.for('foo')</code></pre>
+                        <pre class='fragment'><code data-trim>let obj = {
+    [sym]: 1
+};</code></pre>
+                        <pre class='fragment'><code data-trim>obj[Symbol.for('foo')] == 1</code></pre>
+                        <pre class='fragment'><code data-trim>sym == Symbol.for('foo')</code></pre>
+                        <pre class='fragment'><code data-trim>Symbol.keyFor(sym) == 'foo'</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Yield</h2>
+                        <pre class='fragment'><code data-trim>function* foo(){
+  var i = 0;
+  while(i < 3)
+    yield i++;
+}
 
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
+var gen = foo();
 
-				<section>
-					<h2>Clever Quotes</h2>
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+console.log(gen.next().value); // 2
+console.log(gen.next().value); // undefined</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Yield*</h2>
+                        <pre class='fragment'><code data-trim>function* foo(i) {
+  let bound = i + 3;
+  while(i < bound)
+    yield i++;
+}</code></pre>
+                        <pre class='fragment'><code data-trim>function* bar(i){
+  yield i;
+  yield* foo(i);
+  yield i + 10;
+}</code></pre>
+                        <pre class='fragment'><code data-trim>var gen = bar(10);
+
+console.log(gen.next().value); // 10
+console.log(gen.next().value); // 10
+console.log(gen.next().value); // 11
+console.log(gen.next().value); // 12
+console.log(gen.next().value); // 20
+console.log(gen.next().value); // undefined</code></pre>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Functions</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Default Parameters</h2>
+                        <pre class='fragment'><code data-trim>function multiply(a, b = 1) {
+  return a*b;
+}</code></pre>
+                        <pre class='fragment'><code data-trim>multiply(5, 2); // 10</code></pre>
+                        <pre class='fragment'><code data-trim>multiply(5); // 5</code></pre>
+                        <pre class='fragment'><code data-trim>multiply(5, undefined); // 5</code></pre>
+                        <pre class='fragment'><code data-trim>function append(value, array = []) {
+  array.push(value);
+  return array;
+}
+
+append(1); // [1]
+append(2); // [2], not [1, 2]</code></pre>
+                        <pre class='fragment'><code data-trim>function singularPlural(singular, plural = singular+"s"){ /* .. */ }</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Rest Parameters</h2>
+                        <p class="fragment">A real array of captured parameters</p>
+                        <pre class='fragment'><code data-trim>function sortArgs(...theArgs) {
+  var sortedArgs = theArgs.sort();
+  return sortedArgs;
+}
+
+console.log(sortRestArgs(5,3,7,1)); // shows 1,3,5,7</code></pre>
+                        <p class="fragment">Only captures unnamed parameters</p>
+                        <pre class='fragment'><code data-trim>function multiply(multiplier, ...theArgs) {
+  return theArgs.map(function (element) {
+    return multiplier * element;
+  });
+}
+
+var arr = multiply(2, 1, 2, 3);
+console.log(arr); // [2, 4, 6]</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Spread Operator</h2>
+                        <p class="fragment">A better version of apply</p>
+                        <pre class="fragment"><code data-trim>function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+myFunction.apply(null, args);</code></pre>
+
+                        <pre class='fragment'><code data-trim>function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+myFunction(...args);</code></pre>
+                        <pre class="fragment"><code data-trim>function myFunction(v, w, x, y, z) { }
+var args = [0, 1];
+myFunction(-1, ...args, 2, ...[3]);</code></pre>
+                        <p class="fragment">Also available to array literals</p>
+                        <pre class="fragment"><code data-trim>var partial = ['b', 'c'];
+var full = ['a', ...partial, 'd', 'e'];</code></pre>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Object Orientation</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Classes</h2>
+                        <pre class='fragment'><code data-trim contenteditable>class Point {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    toString() {
+        return '(' + this.x + ', ' + this.y + ')';
+    }
+}</code></pre>
+                        <pre class='fragment'><code data-trim>var p = new Point(25, 8);
+p.toString() == '(25, 8)';</code></pre>
+                        <pre class='fragment'><code data-trim>typeof Point == 'function';</code></pre>
+                        <pre class='fragment'><code data-trim>new Foo(); // ReferenceError
+class Foo {} // because this is not hoisted</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Constructor Methods</h2>
+                        <pre class='fragment'><code data-trim>class Foo {
+    constructor(prop) {
+        this.prop = prop;
+    }
+}</code></pre>
+                        <pre class='fragment'><code data-trim>Foo === Foo.prototype.constructor</code></pre>
+                        <pre class='fragment'><code data-trim>typeof Foo == 'function'</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Static Methods</h2>
+                        <pre class='fragment'><code data-trim>class Foo {
+    static staticMethod() {
+        return 'classy';
+    }
+}</code></pre>
+                        <pre class='fragment'><code data-trim>typeof Foo.staticMethod == 'function'</code></pre>
+                        <pre class='fragment'><code data-trim>Foo.staticMethod() == 'classy'</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Prototypical Methods</h2>
+                        <pre class='fragment'><code data-trim>class Foo {
+    prototypeMethod() {
+        return 'prototypical';
+    }
+}</code></pre>
+                        <pre class='fragment'><code data-trim>typeof Foo.prototype.prototypeMethod == 'function'</code></pre>
+                        <pre class='fragment'><code data-trim>var bar = new Foo(prop);
+bar.prototypeMethod() == 'prototypical'</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Setters &amp; Getters</h2>
+                        <pre class='fragment'><code data-trim>class MyClass {
+    get prop() {
+        return 'getter';
+    }
+    set prop(value) {
+        console.log('setter: '+value);
+    }
+}</code></pre>
+                        <pre class='fragment'><code data-trim>inst.prop = 123;
+// setter: 123</code></pre>
+                        <pre class='fragment'><code data-trim>inst.prop == 'getter'</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Inheritance</h2>
+                        <pre class='fragment'><code data-trim>class Point {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    toString() { return '(' + this.x + ', ' + this.y + ')'; }
+}</code></pre>
+
+                        <pre class='fragment'><code data-trim>class ColorPoint extends Point {
+    constructor(x, y, color) {
+        super(x, y);
+        this.color = color;
+    }
+    toString() { return super.toString() + ' in ' + this.color; }
+}</code></pre>
+                        <pre class='fragment'><code data-trim>var cp = new ColorPoint(25, 8, 'green');
+cp.toString() == '(25, 8) in green'
+cp instanceof ColorPoint
+cp instanceof Point</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Species</h2>
+                        <pre class='fragment'><code data-trim>class MyArray1 extends Array { }
+
+let result1 = new MyArray1().map(x => x);
+
+console.log(result2 instanceof Array); // true
+console.log(result1 instanceof MyArray1); // true</code></pre>
+
+                        <pre class='fragment'><code data-trim>class MyArray2 extends Array {
+    static get [Symbol.species]() {
+        return Array;
+    }
+}
+
+let result2 = new MyArray2().map(x => x);
+
+console.log(result2 instanceof Array); // true
+console.log(result2 instanceof MyArray2); // false</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Modules</h2>
+                        <p class='fragment'>Named exports</p>
+                        <pre class='fragment'><code data-trim>export function square(x) {
+    return x * x;
+}
+export function diag(x, y) {
+    return Math.sqrt(square(x) + square(y));
+}</code></pre>
+                        <pre class='fragment'><code data-trim>import { square, diag } from 'lib';
+square(11); // 121</code></pre>
+                        <pre class='fragment'><code data-trim>import * from 'lib';
+lib.square(11); // 121</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Modules</h2>
+                        <p class='fragment'>Default function export</p>
+                        <pre class='fragment'><code data-trim>export default function () { ... };</code></pre>
+                        <pre class='fragment'><code data-trim>import myFunc from 'myFunc';
+myFunc();</code></pre>
+                        <p class='fragment'>Default class export</p>
+                        <pre class='fragment'><code data-trim>export default class { ... };</code></pre>
+                        <pre class='fragment'><code data-trim>import MyClass from 'MyClass';
+let inst = new MyClass();</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Modules</h2>
+                        <p class='fragment'>Mixing defaults and named exports</p>
+                        <pre class='fragment'><code data-trim>export default function (obj) {
+    ...
+};
+export function each(obj, iterator, context) {
+    ...
+}
+export { each as forEach };</code></pre>
+                        <pre class='fragment'><code data-trim>import _, { each } from 'underscore';</code></pre>
+                        <pre class='fragment'><code data-trim>import { default as _, each } from 'underscore';</code></pre>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Patterns &amp; Features</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Promises</h2>
+                        <pre class="fragment"><code data-trim>myRequest.then(function(response){
+    /* do something after request completes */
+}).catch(function(errorText){
+    /* handle error if request fails */
+});</code></pre>
+                        <pre class="fragment"><code data-trim>var myRequest = new Promise(function(resolve, reject){
+    xhr.onload = function(){
+        if(this.status == 200){
+            resolve(this.response);
+        }else{
+            reject(this.statusText);
+        }
+    }
+    xhr.onerror = function(){
+        reject(this.statusText);
+    }
+    xhr.send();
+});</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Module Loaders</h2>
+                        <p class='fragment'>Merging promises and module loading</p>
+                        <pre class='fragment'><code data-trim>System.import('some_module').then(some_module => {
+    // Use some_module
+}).catch(error => {
+    // ...
+});</code></pre>
+                        <pre class="fragment"><code data-trim>Promise.all(['module1', 'module2'].map(x => System.import(x)))
+       .then(([module1, module2]) => {
+           // Use module1 and module2
+       });</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Maps</h2>
+                        <pre class="fragment"><code data-trim>var myMap = new Map();</code></pre>
+                        <p>
+                            <em class="fragment">No default keys from the prototype</em>
+                            <br><em class="fragment">Supports non-string keys</em>
+                            <br><em class="fragment">Determinable size</em>
+                            <br><em class="fragment">Specified insertion order</em>
+                        </p>
+                        <pre class="fragment"><code data-trim>myMap.set('foo', 'bar');
+myMap.get('foo') == 'bar';</code></pre>
+                        <pre class="fragment"><code data-trim>var objKey = {};
+myMap.set(objKey, 'baz');
+myMap.get(objKey) == 'baz';</code></pre>
+                        <pre class="fragment"><code data-trim>for(let key of myMap.keys())
+for(let [key, value] of myMap.entries())
+myMap.forEach(function(value, key){ /* .. */ })</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Sets</h2>
+                        <pre class="fragment"><code data-trim>var mySet = new Set();</code></pre>
+                        <pre class="fragment"><code data-trim>mySet.add(1);
+mySet.has(1) == true;</code></pre>
+                        <pre class="fragment"><code data-trim>mySet.add('foo');
+mySet.has('foo') == true;</code></pre>
+                        <pre class="fragment"><code data-trim>var objVal = {};
+mySet.add(objVal);
+mySet.has(objVal) == true;</code></pre>
+                        <pre class="fragment"><code data-trim>mySet.size == 3;
+mySet.delete('foo');</code></pre>
+                        <pre class="fragment"><code data-trim>for (let item of mySet)
+mySet.forEach(function(value){ /* .. */ })</code></pre>
+                        <pre class="fragment"><code data-trim>Array.from(mySet);</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Template Strings</h2>
+                        <pre class="fragment"><code data-trim>`string text`</code></pre>
+                        <pre class="fragment"><code data-trim>`string text line 1
+string text line 2`</code></pre>
+                        <pre class="fragment"><code data-trim>`The number is ${a + b} and\nnot ${2 * a + b}.`</code></pre>
+                        <pre class="fragment"><code data-trim>var a = 5;
+var b = 10;
+
+function myTag(strings, ...values) {
+  console.log(strings[0]); // "Hello "
+  console.log(strings[1]); // " world "
+  console.log(values[0]);  // 15
+  console.log(values[1]);  // 50
+  return "Foobar!";
+}
+
+myTag`Hello ${ a + b } world ${ a * b}`; // Foobar!</code></pre>
+                    </section>
+                    
+                    <section>
+                        <h2>Proxies</h2>
+                        <p class='fragment'>Define custom behavior for fundamental operations</p>
+                        <pre class='fragment'><code data-trim>let validator = {
+  set: function(obj, prop, value) {
+    if (prop === 'age') 
+      if (!Number.isInteger(value)) 
+        throw new TypeError('The age is not an integer');
+    obj[prop] = value;
+  }
+};</code></pre>
+
+                        <pre class='fragment'><code data-trim>let person = new Proxy({}, validator);
+person.age = 26;
+person.age = 'young'; // Throws an exception</code></pre>
+                        <p class='fragment'><em>get, set, has, deleteProperty, defineProperty, apply, constructor, <span class="fragment">enumerate, ownKeys, getOwnPropertyDescriptor,</span> <span class="fragment">getPrototypeOf, setPrototypeOf, isExtensible, preventExtensions</span></em></p>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Beyond ES6</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>ES7</h2>
+                        <p class='fragment'>
+                            <strong>Early conceptualization includes...</strong>
+                        </p>
+                        <p>
+                            <span class='fragment'>Object.observe</span>
+                            <br>
+                            <span class='fragment'>SIMD</span>
+                            <br>
+                            <span class='fragment'>Async Functions</span>
+                            <br>
+                            <span class='fragment'>Typed Objects</span>
+                            <br>
+                            <span class='fragment'>Class Decorators</span>
+                            <br>
+                            <span class='fragment'>Class Properties</span>
+                            <br>
+                            <span class='fragment'>Bind Operator</span>
+                        </p>
+                    </section>
+                    
+                    <section>
+                        <h2>asm.js</h2>
+                        <p class='fragment'>
+                            <strong>Strict subset of Javascript easily convertible to assembly</strong>
+                            <br>
+                            <em class='fragment'>Only handles elementary numeric types</em>
+                            <br>
+                            <em class="fragment">All external data in a single &quot;heap&quot; array</em>
+                            <br>
+                            <em class="fragment">No globals, structures, closures, etc.</em>
+                        </p>
+                        <p class='fragment'>
+                            <strong>Commonly, source-to-source compilation</strong>
+                            <br>
+                            <em class='fragment'>Emscripten and Mandreel</em>
+                            <br>
+                            <em class='fragment'>OpenGL, zlib, Unreal Engine 4, Unity, CPython, etc.</em>
+                        </p>
+                        <p class='fragment'><strong>Averages 4x to 10x performance gains</strong></p>
+                    </section>
+                    
+                    <section>
+                        <h2>WebAssembly (wasm)</h2>
+                        <p class='fragment'>
+                            <strong>Javascript is currently a compile target</strong>
+                            <br>
+                            <span class='fragment'>asm.js makes it faster</span>
+                            <br>
+                            <span class='fragment'>Still high-level and interpreted</span>
+                        </p>
+                        <p class='fragment'>
+                            <strong>New low-level binary compile format</strong>
+                            <br>
+                            <span class='fragment'>No object system or automatic garbage collection</span>
+                            <br>
+                            <span class='fragment'>Binary format, SIMD, threads, direct memory control</span>
+                        </p>
+                        <blockquote class='fragment'>WebAssembly is an open invitation to developers building future programming languages.</blockquote>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                        <h2>Using the Future Today</h2>
+                    </section>
+                    
+                    <section>
+                        <h2>Traceur</h2>
+                        <p><a href='https://github.com/google/traceur-compiler' target='_blank'>github.com/google/traceur-compiler</a></p>
+                    </section>
+                    
+                    <section>
+                        <h2>Good Resources</h2>
+                        <p class="fragment"><a href="http://www.2ality.com/" target="_blank">2ality.com</a></p>
+                        <p class="fragment"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla" target="_blank">Mozilla Developer Network</a></p>
+                        <p class="fragment"><a href="https://github.com/lukehoban/es6features" target="_blank">github.com/lukehoban/es6features</a></p>
+                    </section>
+                    
+                </section>
+                
+                <section>
+					<h1>Thank You</h1>
+                    <h2>Any Questions?</h2>
 					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+						<small>Eric Bollens / <a href="mailto:eric@eb.io">eric@eb.io</a> / <a href="http://github.com/ebollens">ebollens [GitHub]</a> / <a href="http://twitter.com/ericbollens">@ericbollens [Twitter]</a></small>
 					</p>
 				</section>
 
